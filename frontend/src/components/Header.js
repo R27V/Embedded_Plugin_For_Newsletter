@@ -9,7 +9,7 @@ const Header = () => {
       {/* Navbar */}
       <nav
         className="navbar navbar-expand-lg navbar-dark"
-        style={{ backgroundColor: "yellowgreen" }}
+        style={{ backgroundColor: "#232a69" }}
       >
         {/* Container wrapper */}
         <div className="container-fluid">
@@ -30,10 +30,10 @@ const Header = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               {/* Link */}
               <li className="nav-item">
-            <NavLink className="nav-link" to="/home">
-              Home
-            </NavLink>
-            </li>
+                <NavLink className="nav-link" to="/home">
+                  Home
+                </NavLink>
+              </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/login">
                   Login
@@ -51,9 +51,10 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="dashboard/">
-                Dashboard
+                  Dashboard
                 </NavLink>
               </li>
+              
             </ul>
             {/* Icons */}
             <ul className="navbar-nav d-flex flex-row me-1">
